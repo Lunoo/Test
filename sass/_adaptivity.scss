@@ -1,0 +1,238 @@
+@media (max-width: 1050px){
+    $width: 960px;
+
+    body{
+        font-size: 11px;
+    }
+    .first, .second, .third, .recomendation, footer{
+        max-width: $width;
+    }
+    footer{
+        .mail{
+            p{
+                margin-bottom: 30px;
+            }
+            input{
+                height: 40px;
+                line-height: 40px;
+            }
+            button{
+                margin-top: 15px;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 960px){
+    $width: 768px;
+
+    body{
+        font-size: 10px;
+    }
+    header{
+        h3{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    .wrapper{
+        padding-top: 40px;
+    }
+    .first, .second, .third, .recomendation{
+        max-width: $width;
+    }
+    .first{
+        h6{
+            margin-top: 50px;
+        }
+    }
+    .second{
+        margin-top: 40px;
+
+        .text{
+            margin-top: 40px;
+
+            h6{
+                margin-top: 20px;
+            }
+            h5{
+                margin-top: 35px;
+                font-size: 13px;
+            }
+            .text{
+                margin-top: 25px;
+            }
+        }
+    }
+    .third{
+        margin-top: 40px;
+
+        .text{
+            margin-top: 40px;
+        }
+        h6{
+            margin-top: 40px;
+        }
+        .share{
+            margin-top: 30px;
+        }
+    }
+    .recomendation{
+        h2{
+            font-size: 28px;
+        }
+    }
+    footer{
+        max-width: 880px;
+        margin-top: 80px;
+
+        div{
+            height: 250px;
+        }
+        .ask{
+            p{
+                line-height: 20px;
+            }
+        }
+        .new{
+            width: 32%;
+
+            h2{
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+        .mail{
+            p{
+                margin-bottom: 15px;
+            }
+            button, input{
+                height: 30px;
+                line-height: 30px;
+                font-size: 11px;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    $width: 500px;
+
+    body{
+        font-size: 9px;
+    }
+    .wrapper{
+        min-height: 550px;
+    }
+    header{
+        h3{
+            font-size: 18px;
+        }
+        h1{
+            font-size: 36px;
+        }
+    }
+    .first, .second, .third, .recomendation, footer{
+        max-width: $width;
+    }
+    .first{
+        h6{
+            margin-top: 20px;
+        }
+        p{
+            line-height: 15px;
+        }
+    }
+    .second{
+        margin-top: 20px;
+
+        .text{
+            margin-top: 20px;
+
+            h6{
+                margin-top: 10px;
+                line-height: 13px;
+            }
+            p{
+                line-height: 13px;
+            }
+            h5{
+                width: 100%;
+                font-size: 10px;
+                line-height: 15px;
+                margin-top: 20px;
+            }
+            .text{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .third{
+        margin-top: 20px;
+
+        .text{
+            margin-top: 40px;
+        }
+        p{
+            line-height: 13px;
+        }
+        h6{
+            margin-top: 15px;
+        }
+        .share{
+            margin-top: 15px;
+        }
+    }
+    .recomendation{
+        margin-top: 30px;
+
+        h2{
+            font-size: 25px;
+        }
+        img{
+            margin-bottom: 20px;
+        }
+        .slide{
+            margin-top: 30px;
+        }
+        p{
+            margin-top: 5px;
+        }
+        .rslides_tabs li{
+            margin-bottom: 30px;
+        }
+    }
+    footer{
+        margin-top: 50px;
+
+        div{
+            float: none;
+            border-right: none;
+            height: auto;
+
+            &:after{
+                display: block;
+                content: '';
+                clear: both;
+            }
+        }
+        .ask, .new, .mail{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .new img{
+            top: -10px;
+            width: 30%;
+        }
+        .mail{
+            input{
+                font-size: 11px;
+            }
+            button{
+                font-size: 11px;
+            }
+        }
+    }
+}

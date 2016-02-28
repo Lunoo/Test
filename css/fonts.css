@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl.otf');
+  src: local('☺'), url('../fonts/MuseoSansCyrl.otf') format('openType');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl_0.otf');
+  src: local('☺'), url('../fonts/MuseoSansCyrl_0.otf') format('openType');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl_1.otf');
+  src: local('☺'), url('../fonts/MuseoSansCyrl_1.otf') format('openType');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl_2.otf');
+  src: local('☺'), url('../fonts/MuseoSansCyrl_2.otf') format('openType');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl_3.otf');
+  src: local('☺'), url('../fonts/MuseoSansCyrl_3.otf') format('openType');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CodeProLight';
+  src: url('../fonts/CodeProLight.otf');
+  src: local('☺'), url('../fonts/CodeProLight.otf') format('openType');
+}
